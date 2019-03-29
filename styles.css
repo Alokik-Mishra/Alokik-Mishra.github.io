@@ -139,13 +139,13 @@ h1.name {
 	vertical-align: top;
 	display: inline-block;
 	width: 49.7%;
-	height: 50px;
+	height: 50px auto;
 }
 
 .section-title {
 	font-size: 20px;
 	font-weight: 600;
-	margin-bottom: 15px;
+	margin-bottom: 15px auto;
 }
 
 .list-card {
@@ -172,14 +172,14 @@ h1.name {
 	font-size: 20px;
 	font-weight: 600;
 	color: #5B6A9A;
-	line-height: 26px;
-	margin-bottom: 8px;
+	line-height: 26px auto;
+	margin-bottom: 8px auto;
 }
 
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
-	line-height: 22px;
+	line-height: 22px auto;
 }
 
 /*skill and intrests ends*/
