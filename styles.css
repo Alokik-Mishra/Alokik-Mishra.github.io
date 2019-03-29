@@ -156,9 +156,7 @@ h1.name {
 
 .list-card .exp , .list-card div{
 	position: relative;
-	/*
 	display: inline-block;
-	*/
 	vertical-align: top;
 }
 
@@ -185,9 +183,7 @@ h1.name {
 .list-card div span {
 	font-size: 16px;
 	color: #81899C;
-	/*
 	line-height: 22px auto;
-	*/
 }
 
 /*skill and intrests ends*/
