@@ -1192,38 +1192,19 @@ textarea:focus {
 
 /* Reset Styles */
 
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
+
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
+.resume-article, .resume-aside, .resume-details, .resume-figcaption, .resume-figure, 
+.resume-footer, .resume-header, .resume-hgroup, .resume-menu, .resume-nav, .resume-section {
 	display: block;
 }
-a{
+.resume-a{
 	text-decoration: none;
 	text-transform: none;
 	color: #4A90E2;
 }
 
-body {
+.resume-body {
 	line-height: 1;
 	font-family: lato, ubuntu,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Open Sans,Helvetica Neue,sans-serif;
 	text-rendering : optimizeLegibility;
@@ -1232,33 +1213,33 @@ body {
 	background-color: #FEFEFE;
 	color: #04143A;
 }
-ol, ul {
+.resume-ol, .resume-ul {
 	list-style: none;
 }
-blockquote, q {
+.resume-blockquote, .resume-q {
 	quotes: none;
 }
-blockquote:before, blockquote:after,
-q:before, q:after {
+.resume-blockquote:before, .resume-blockquote:after,
+.resume-q:before, .resume-q:after {
 	content: '';
 	content: none;
 }
-table {
+.resume-table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
 
-p {
+.resume-p {
 	color: #15171a;
 	font-size: 17;
 	line-height: 31px;
 }
 
-strong {
+.resume-strong {
 	font-weight: 600;
 }
 
-div , footer {
+.resume-div , .resume-footer {
 	box-sizing: border-box;
 }
 
@@ -1267,24 +1248,24 @@ div , footer {
 
 /*Hero section*/
 
-.container {
+.resume-.container {
 	max-width: 1100px;
 	height: auto;
 	margin: 60px auto;
 }
 
-.hero {
+.resume-.hero {
 	margin: 50px auto; 
 	position: relative;
 }
 
-h1.name {
+.resume-h1.name {
 	font-size: 70px;
 	font-weight: 300;
 	display: inline-block;
 }
 
-.job-title {
+.resume-.job-title {
 	vertical-align: top;
 	background-color: #D9E7F8;
 	color: #4A90E2;
@@ -1296,7 +1277,7 @@ h1.name {
 	padding: 15px 25px;
 }
 
-.email {
+.resume-.email {
 	display: block;
 	font-size: 24px;
 	font-weight: 300;
@@ -1304,7 +1285,7 @@ h1.name {
 	margin-top: 10px;
 }
 
-.lead {
+.resume-.lead {
 	font-size: 44px;
 	font-weight: 300;
 	margin-top: 60px;
@@ -1315,40 +1296,40 @@ h1.name {
 
 /*skills & intrests*/
 
-.sections {
+.resume-.sections {
 	vertical-align: top;
 	display: inline-block;
 	width: 49.7%;
 	height: 50px;
 }
 
-.section-title {
+.resume-.section-title {
 	font-size: 20px;
 	font-weight: 600;
 	margin-bottom: 15px;
 }
 
-.list-card {
+.resume-.list-card {
 	margin: 30px 0;
 }
 
-.list-card .exp , .list-card div{
+.resume-.list-card .exp , .list-card div{
 	display: inline-block;
 	vertical-align: top;
 }
 
-.list-card .exp {
+.resume-.list-card .exp {
 	margin-right: 15px;
 	color: #4A90E2;
 	font-weight: 600;
 	width: 100px;
 }
 
-.list-card div {
+.resume-.list-card div {
 	width: 70%;
 }
 
-.list-card h3 {
+.resume-.list-card h3 {
 	font-size: 20px;
 	font-weight: 600;
 	color: #5B6A9A;
@@ -1356,7 +1337,7 @@ h1.name {
 	margin-bottom: 8px;
 }
 
-.list-card div span {
+.resume-.list-card div span {
 	font-size: 16px;
 	color: #81899C;
 	line-height: 22px;
@@ -1367,13 +1348,13 @@ h1.name {
 /* Achievements */
 
 
-.cards {
+.resume-.cards {
 	max-width: 1120px;
 	display: block;
 	margin-top: 280px;
 }
 
-.card {
+.resume-.card {
 	width: 47.9%;
 	height: 200px;
 	background-color: #EEF0F7;
@@ -1385,7 +1366,7 @@ h1.name {
 	padding-top: 50px
 }
 
-.card-active , .card:hover{
+.resume-.card-active , .resume-.card:hover{
 	transform: scale(1.02);
 	transition: 0.5s;
 	background-color: #fff;
@@ -1394,19 +1375,19 @@ h1.name {
 }
 
 
-.skill-level {
+.resume-.skill-level {
 	display: inline-block;
 	max-width: 160px;
 }
 
-.skill-level span {
+.resume-.skill-level span {
 	font-size: 35px;
 	font-weight: 300;
 	color: #5B6A9A;
 	vertical-align: top;
 }
 
-.skill-level h2 {
+.resume-.skill-level h2 {
 	font-size: 95px;
 	font-weight: 300;
 	display: inline-block;
@@ -1415,7 +1396,7 @@ h1.name {
 	letter-spacing: -5px;
 }
 
-.skill-meta {
+.resume-.skill-meta {
 	vertical-align: top;
 	display: inline-block;
 	max-width: 300px;
@@ -1424,14 +1405,14 @@ h1.name {
 	margin-left: 15px;
 }
 
-.skill-meta h3 {
+.resume-.skill-meta h3 {
 	font-size: 20px;
 	font-weight: 800;
 	color: #5B6A9A;
 	margin-bottom: 5px;
 }
 
-.skill-meta span{
+.resume-.skill-meta span{
 	color: #81899C;
 	line-height: 20px;
 	font-size: 16px;
@@ -1444,7 +1425,7 @@ h1.name {
 /* Timeline styles*/
 
 
-ol {
+.resume-ol {
 	position: relative;
 	display: block;
 	margin: 100px 0;
@@ -1452,8 +1433,8 @@ ol {
 	background: #EEF0F7;
 
 }
-ol::before,
-ol::after {
+.resume-ol::before,
+.resume-ol::after {
 	content: "";
 	position: absolute;
 	top: -10px;
@@ -1463,10 +1444,10 @@ ol::after {
   	border-radius: 10px;
 	border: 0px solid #31708F;
 }
-ol::before {
+.resume-ol::before {
 	left: -5px;
 }
-ol::after {
+.resume-ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
@@ -1475,14 +1456,14 @@ ol::after {
 }
 
 /* ---- Timeline elements ---- */
-li {
+.resume-li {
 	position: relative;
 	display: inline-block;
 	float: left;
 	width: 25%;
   	height: 50px;
 }
-li .line {
+.resume-li .resume-.line {
   position: absolute;
   top: -47px;
   left: 1%;
@@ -1490,7 +1471,7 @@ li .line {
   font-weight: 600;
   color: #04143A;
 }
-li .point {
+.resume-li .resume-.point {
 	content: "";
 	top: -7px;
 	left: 0%;
@@ -1502,7 +1483,7 @@ li .point {
 	background: #4A90E2;
   position: absolute;
 }
-li .description {
+.resume-li .resume-.description {
   display: none;
   padding: 10px 0;
   margin-top: 20px;
@@ -1515,7 +1496,7 @@ li .description {
   line-height: 25px;
   color: #5B6A9A;
 }
-.description::before {
+.resume-.description::before {
   content: '';
   width: 0; 
   height: 0; 
@@ -1528,108 +1509,22 @@ li .description {
 }
 
 
-.timeline .date{
+.resume-.timeline .resume-.date{
 	font-size: 14px;
 	color: #81899C;
 	font-weight: 300;
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+.resume-li:hover {
   color: #48A4D2;
 }
-li .description {
+.resume-li .resume-.description {
   display: block;
 }
 
 /*timeline ends*/
 
-
-
-/* Media queries*/
-
-@media(max-width: 1024px){
-	.container {
-		padding: 15px;
-		margin: 0px auto;
-	}
-	.cards {
-		margin-top: 250px;
-	}
-}
-
-@media(max-width: 768px){
-	.container {
-		padding: 15px;
-		margin: 0px auto;
-	}
-	.cards {
-		margin-top: 320px;
-	}
-
-	.card {
-		padding: 15px;
-		text-align: left;
-	}
-	.card h2 {
-		font-size: 70px;
-	}
-		.card , .sections {
-		width: 100%;
-		height: auto;
-		margin: 10px 0;
-		float: left;
-	}
-
-	.timeline{
-		border: none;
-		background-color: rgba(0,0,0,0);
-	}
-
-	.timeline li{
-		margin-top: 70px;
-		height: 150px;
-	}
-}
-
-
-@media(max-width: 425px) {
-	h1.name {
-		font-size: 40px;
-	}
-
-	.card , .sections {
-		width: 100%;
-		height: auto;
-		margin: 10px 0;
-		float: left;
-	}
-
-	.timeline{
-		display: none;
-		}
-
-	.job-title {
-		position: absolute;
-		font-size: 15px;
-		top: -40px;
-		right: 20px;
-		padding: 10px
-	}
-
-	.lead {
-		margin-top: 15px;
-		font-size: 20px;
-		line-height: 28px;
-	}
-	.container {
-		margin: 0px;
-		padding: 0 15px;
-	}
-	footer {
-		margin-top: 2050px;
-	}
-	}
 
 
 /* End of all :P*/
