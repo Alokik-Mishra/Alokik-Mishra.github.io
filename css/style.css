@@ -1444,7 +1444,7 @@ textarea:focus {
 /* Timeline styles*/
 
 
-ol {
+.resume-ol {
 	position: relative;
 	display: block;
 	margin: 100px 0;
@@ -1452,8 +1452,8 @@ ol {
 	background: #EEF0F7;
 
 }
-ol::before,
-ol::after {
+.resume-ol::before,
+.resume-ol::after {
 	content: "";
 	position: absolute;
 	top: -10px;
@@ -1463,10 +1463,10 @@ ol::after {
   	border-radius: 10px;
 	border: 0px solid #31708F;
 }
-ol::before {
+.resume-ol::before {
 	left: -5px;
 }
-ol::after {
+.resume-ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
@@ -1475,14 +1475,14 @@ ol::after {
 }
 
 /* ---- Timeline elements ---- */
-li {
+.resume-li {
 	position: relative;
 	display: inline-block;
 	float: left;
 	width: 25%;
   	height: 50px;
 }
-li .resume-.line {
+.resume-li .resume-.line {
   position: absolute;
   top: -47px;
   left: 1%;
@@ -1490,7 +1490,7 @@ li .resume-.line {
   font-weight: 600;
   color: #04143A;
 }
-li .resume-.point {
+.resume-li .resume-.point {
 	content: "";
 	top: -7px;
 	left: 0%;
@@ -1502,7 +1502,7 @@ li .resume-.point {
 	background: #4A90E2;
   position: absolute;
 }
-li .resume-.description {
+.resume-li .resume-.description {
   display: none;
   padding: 10px 0;
   margin-top: 20px;
@@ -1535,10 +1535,10 @@ li .resume-.description {
 }
 
 /* ---- Hover effects ---- */
-li:hover {
+.resume-li:hover {
   color: #48A4D2;
 }
-li .resume-.description {
+.resume-li .resume-.description {
   display: block;
 }
 
@@ -1546,29 +1546,29 @@ li .resume-.description {
 /* Media queries*/
 
 @media(max-width: 1024px){
-	.container {
+	.resume-.container {
 		padding: 15px;
 		margin: 0px auto;
 	}
-	.cards {
+	.resume-.cards {
 		margin-top: 250px;
 	}
 }
 
 @media(max-width: 768px){
-	.container {
+	.resume-.container {
 		padding: 15px;
 		margin: 0px auto;
 	}
-	.cards {
+	.resume-.cards {
 		margin-top: 320px;
 	}
 
-	.card {
+	.resume-.card {
 		padding: 15px;
 		text-align: left;
 	}
-	.card h2 {
+	.resume-.card h2 {
 		font-size: 70px;
 	}
 		.card , .sections {
@@ -1578,12 +1578,12 @@ li .resume-.description {
 		float: left;
 	}
 
-	.timeline{
+	.resume-.timeline{
 		border: none;
 		background-color: rgba(0,0,0,0);
 	}
 
-	.timeline li{
+	.resume-.timeline li{
 		margin-top: 70px;
 		height: 150px;
 	}
