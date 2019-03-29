@@ -1444,7 +1444,7 @@ textarea:focus {
 /* Timeline styles*/
 
 
-.resume-ol {
+ol {
 	position: relative;
 	display: block;
 	margin: 100px 0;
@@ -1452,8 +1452,8 @@ textarea:focus {
 	background: #EEF0F7;
 
 }
-.resume-ol::before,
-.resume-ol::after {
+ol::before,
+ol::after {
 	content: "";
 	position: absolute;
 	top: -10px;
@@ -1463,10 +1463,10 @@ textarea:focus {
   	border-radius: 10px;
 	border: 0px solid #31708F;
 }
-.resume-ol::before {
+ol::before {
 	left: -5px;
 }
-.resume-ol::after {
+ol::after {
 	right: -10px;
 	border: 0px solid transparent;
 	border-right: 0;
@@ -1475,14 +1475,14 @@ textarea:focus {
 }
 
 /* ---- Timeline elements ---- */
-.resume-li {
+li {
 	position: relative;
 	display: inline-block;
 	float: left;
 	width: 25%;
   	height: 50px;
 }
-.resume-li .resume-.line {
+li .resume-.line {
   position: absolute;
   top: -47px;
   left: 1%;
@@ -1490,7 +1490,7 @@ textarea:focus {
   font-weight: 600;
   color: #04143A;
 }
-.resume-li .resume-.point {
+li .resume-.point {
 	content: "";
 	top: -7px;
 	left: 0%;
@@ -1502,7 +1502,7 @@ textarea:focus {
 	background: #4A90E2;
   position: absolute;
 }
-.resume-li .resume-.description {
+li .resume-.description {
   display: none;
   padding: 10px 0;
   margin-top: 20px;
@@ -1535,10 +1535,10 @@ textarea:focus {
 }
 
 /* ---- Hover effects ---- */
-.resume-li:hover {
+li:hover {
   color: #48A4D2;
 }
-.resume-li .resume-.description {
+li .resume-.description {
   display: block;
 }
 
