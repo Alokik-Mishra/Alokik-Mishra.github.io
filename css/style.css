@@ -1191,7 +1191,26 @@ textarea:focus {
 
 
 /* Reset Styles */
-
+.resume-html, .resume-body, .resume-div, .resume-span, .resume-applet, .resume-object, .resume-iframe,
+.resume-h1, .resume-h2, .resume-h3, .resume-h4, .resume-h5, .resume-h6, .resume-p, .resume-blockquote, .resume-pre,
+.resume-a, .resume-abbr, .resume-acronym, .resume-address, .resume-big, .resume-cite, .resume-code,
+.resume-del, .resume-dfn, .resume-em, .resume-img, .resume-ins, .resume-kbd, .resume-q, .resume-s, .resume-samp,
+.resume-small, .resume-strike, .resume-strong, .resume-sub, .resume-sup, .resume-tt, .resume-var,
+.resume-b, .resume-u, .resume-i, .resume-center,
+.resume-dl, .resume-dt, .resume-dd, .resume-ol, .resume-ul, .resume-li,
+.resume-fieldset, .resume-form, .resume-label, .resume-legend,
+.resume-table, .resume-caption, .resume-tbody, .resume-tfoot, .resume-thead, .resume-tr, .resume-th, .resume-td,
+.resume-article, .resume-aside, .resume-canvas, .resume-details, .resume-embed, 
+.resume-figure, .resume-figcaption, .resume-footer, .resume-header, .resume-hgroup, 
+.resume-menu, .resume-nav, .resume-output, .resume-ruby, .resume-section, .resume-summary,
+.resume-time, .resume-mark, .resume-audio, .resume-video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
 
 /* HTML5 display-role reset for older browsers */
 .resume-article, .resume-aside, .resume-details, .resume-figcaption, .resume-figure, 
@@ -1524,7 +1543,90 @@ textarea:focus {
 }
 
 /*timeline ends*/
+/* Media queries*/
 
+@media(max-width: 1024px){
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+	.cards {
+		margin-top: 250px;
+	}
+}
+
+@media(max-width: 768px){
+	.container {
+		padding: 15px;
+		margin: 0px auto;
+	}
+	.cards {
+		margin-top: 320px;
+	}
+
+	.card {
+		padding: 15px;
+		text-align: left;
+	}
+	.card h2 {
+		font-size: 70px;
+	}
+		.card , .sections {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		float: left;
+	}
+
+	.timeline{
+		border: none;
+		background-color: rgba(0,0,0,0);
+	}
+
+	.timeline li{
+		margin-top: 70px;
+		height: 150px;
+	}
+}
+
+
+@media(max-width: 425px) {
+	.resume-h1.name {
+		font-size: 40px;
+	}
+
+	.resume-.card , .resume-.sections {
+		width: 100%;
+		height: auto;
+		margin: 10px 0;
+		float: left;
+	}
+
+	.resume-.timeline{
+		display: none;
+		}
+
+	.resume-.job-title {
+		position: absolute;
+		font-size: 15px;
+		top: -40px;
+		right: 20px;
+		padding: 10px
+	}
+
+	.resume-.lead {
+		margin-top: 15px;
+		font-size: 20px;
+		line-height: 28px;
+	}
+	.resume-.container {
+		margin: 0px;
+		padding: 0 15px;
+	}
+	.resume-footer {
+		margin-top: 2050px;
+	}
+}
 
 
 /* End of all :P*/
