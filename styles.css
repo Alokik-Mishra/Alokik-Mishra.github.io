@@ -153,6 +153,7 @@ h1.name {
 }
 
 .list-card .exp , .list-card div{
+	position: relative;
 	display: inline-block;
 	vertical-align: top;
 }
